@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Fábio Garboggini">
+    <title>Galeria de Cachorros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Galeria de Raças de Cachorros</h1>
+        <p>Escolha uma raça para ver imagens aleatórias</p>
+    </header>
+
+    <main>
+        <section id="selecao-racas">
+            <h2>Selecione uma Raça</h2>
+            <div id="botoes-racas"></div>
+        </section>
+        
+        <section id="galeria-imagens">
+            <h2>Imagens da Raça Selecionada</h2>
+            <p id="mensagem-carregamento" style="display: none;">Carregando imagens...</p>
+            <div id="galeria"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
